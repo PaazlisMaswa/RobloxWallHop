@@ -22,7 +22,7 @@ function Notify(title,description,duration)
 	})
 end
 
-local UI=require(game.ReplicatedStorage.Shared.PaazlisUI)
+local UI=loadstring(game:HttpGet('https://raw.githubusercontent.com/PaazlisMaswa/PaazlisUI/refs/heads/main/panel.lua'))()
 
 local Window=UI:CreateWindow()
 
